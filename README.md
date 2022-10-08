@@ -6,7 +6,6 @@
 
 # Scenario
  - Load Testing
- - Stress Tesing
 
 ## How To Run This Project
 
@@ -26,3 +25,5 @@ Install JDK 8 or 11
 ```java –version```
 
 ## Performance Test Report
+![image](https://user-images.githubusercontent.com/114859893/194729550-d236da4b-6cc2-43e2-b40e-12eefb4cd49c.png)
+![image](https://user-images.githubusercontent.com/114859893/194729567-13672c9b-0068-4204-beac-a6192812e4d8.png)
