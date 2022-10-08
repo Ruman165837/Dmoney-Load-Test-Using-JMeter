@@ -1,0 +1,8 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1665262404565,145,Login with valid credentials,200,OK,Thread Group 1-1,text,true,,533,314,1,1,http://dmoney.professionaltrainingbd.com/user/login,135,0,78
+1665262404822,43,Login with wrong password,401,Unauthorized,Thread Group 1-1,text,false,,356,493,1,1,http://dmoney.professionaltrainingbd.com/user/login,43,0,0
+1665262404868,47,Search user by id,200,OK,Thread Group 1-1,text,true,,554,419,1,1,http://dmoney.professionaltrainingbd.com/user/search?id=55,47,0,0
+1665262404915,101,Can not create user with same email,208,Already Reported,Thread Group 1-1,text,true,,365,628,1,1,http://dmoney.professionaltrainingbd.com/user/create,100,0,0
+1665262405019,65,Create new user,201,Created,Thread Group 1-1,text,true,,583,604,1,1,http://dmoney.professionaltrainingbd.com/user/create,65,0,0
+1665262405085,46,Search user by phone number,200,OK,Thread Group 1-1,text,true,,546,438,1,1,http://dmoney.professionaltrainingbd.com/user/search?phone_number=01500395062,46,0,0
+1665262405132,56,Delete user,200,OK,Thread Group 1-1,text,true,,343,441,1,1,http://dmoney.professionaltrainingbd.com/user/delete/10584,56,0,0
